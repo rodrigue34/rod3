@@ -22,13 +22,7 @@ def std_dev(person_list):
         ty = ty + (m.get_age()-u)**2
     return (ty/n) ** 0.5
 
-p1 = Person("Kyoungmin", 73)
-p2 = Person("Mercedes", 24)
-p3 = Person("Beatrice", 48)
-person_list = [p1, p2, p3]
-answer = std_dev(person_list)
 
-print(answer)
 
 
 
